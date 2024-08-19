@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-js-mhfn.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -8,10 +8,10 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3333/videos
+GET https://node-js-mhfn.onrender.com/videos
 
 ###
-PUT http://localhost:3333/videos/60a21440-9922-4d98-aa8d-727d934fc2e8
+PUT https://node-js-mhfn.onrender.com/videos/"9c8412f8-f319-4f0e-9049-e8f9c8fc5296
 Content-Type: application/json
 
 {
@@ -20,4 +20,4 @@ Content-Type: application/json
     "duration": 180
 }
 ###
-DELETE  http://localhost:3333/videos/fa616e7e-59ca-4b75-a8b4-7c0db01c2569
+DELETE  https://node-js-mhfn.onrender.com/videos/fa616e7e-59ca-4b75-a8b4-7c0db01c2569
