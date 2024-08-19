@@ -5,15 +5,19 @@ Este é um projeto de exemplo para um CRUD para criação de rotas de videos ult
 ### Estrutura do Projeto
 
 ```
-.dockerignore
-.env
-.gitignore
-create-table.js
-database-momory.js
-database-postgres.js
-db.js
-routes.http
-server.js
+📦 root
+ ┣ 📂 database
+ ┃ ┣ 📜 database.js
+ ┣ 📂 src
+ ┃ ┣ 📂 models
+ ┃ ┣ 📜 database-memory.js
+ ┃ ┣ 📜 database-postgres.js
+ ┃ ┗ 📜 db.js
+ ┃ ┣ 📂 routes
+ ┃ ┗ 📜 routes.http
+ ┣ 📜 .env
+ ┣ 📜 .gitignore
+
 ```
 
 ### Funcionalidades
