@@ -11,13 +11,13 @@ Content-Type: application/json
 GET https://node-js-mhfn.onrender.com/videos
 
 ###
-PUT https://node-js-mhfn.onrender.com/videos/"9c8412f8-f319-4f0e-9049-e8f9c8fc5296
+PUT https://node-js-mhfn.onrender.com/videos/8c127413-49a5-4ffd-a11d-c19a05bd54f7
 Content-Type: application/json
 
 {
     "title": "Video 03",
-    "description": "Esse é o video treinamento",
+    "description": "Esse é o video para excluir",
     "duration": 180
 }
 ###
-DELETE  https://node-js-mhfn.onrender.com/videos/fa616e7e-59ca-4b75-a8b4-7c0db01c2569
+DELETE  https://node-js-mhfn.onrender.com/videos/8c127413-49a5-4ffd-a11d-c19a05bd54f7
